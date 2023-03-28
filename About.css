@@ -131,27 +131,37 @@ body{
     height: 150;
     font-family: 'Poppins' sans-serif;
 }
+
 .Teams-container{
+    display: flex;
+    flex-direction: column;
     margin: 20px 40px;
     color: white;
 }
+
 .heading{
     font-size: 60px;
     padding-bottom: 2cm;
     color: white;
 }
+
 .heading span{
     font-style: italic;
     font-size: 30px;
 }
-.profile{
+
+.profiles{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 20px 80px;
 }
-.profile{
+
+/*.profile{
+    display: flex;
+    justify-content: space-between;
     flex-basis: 260px;
 }
+*/
 .profiles .profile-img {
     height: 260px;
     width: 260px;
@@ -165,17 +175,57 @@ body{
     filter: grayscale(0);
 }
 .user-name{
+    display: flex;
+    flex-direction: row;
     margin-top: 30px;
     font-size: 35px;
+
 }
 .profile{
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 3px;
     color: #ccc;
+
 }
+
 .profile{
     font-size: 16px;
     margin-top: 20px;
     text-align: justify;
 }
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.name h3{
+    margin-left: 3vw;
+    font-size: 50px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.work h4{
+    font-size: 30px;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.position{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
